@@ -37,7 +37,7 @@ while True:
     if bottom1 == 1: #if denominator is 1
       print("The fraction simplified is ", top1, ".")
 
-    elif GCD == 1: #fraction cannot be reduced
+    elif GCD == 1: #if fraction cannot be reduced
       print("The fraction", top1, "/", bottom1, "is already fully simplified.")
     
     else:
